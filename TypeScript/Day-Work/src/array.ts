@@ -2,12 +2,12 @@ const superHeros: string[] = []
 // const heroPower: number[] = []
 const heroPower: Array<number> = []
 
-type User = {
+type Users = {
     name: string
     isActive: boolean
 }
 
-const allUsers: User[] = []
+const allUsers: Users[] = []
 
 const MLModels: number[][] = [
     [255, 255, 255],

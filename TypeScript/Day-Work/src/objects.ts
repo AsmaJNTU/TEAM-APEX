@@ -31,7 +31,7 @@
 // createUser({name: "", email: "", isActive: true})
 
 
-type User = {
+type Usersss = {
     readonly _id: string
     name: string
     email: string
@@ -39,7 +39,7 @@ type User = {
     credcardDetails?: number
 }
 
-let myUser: User = {
+let myUser: Usersss = {
     _id: "1245",
     name: "h",
     email: "h@h.com",
@@ -69,4 +69,3 @@ myUser.email = "h@gmail.com"
 
 
 
-export {}

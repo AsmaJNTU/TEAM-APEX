@@ -3,7 +3,7 @@ score = 44
 score = "55"
 
 
-type User = {
+type Asma = {
     name: string;
     id: number
 }

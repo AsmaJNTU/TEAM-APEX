@@ -7,15 +7,20 @@ function getUpper(val: string){
    return val.toUpperCase()
 }
 
-function signUpUser(name: string, email: string, isPaid: boolean){}
+function signUpUser(name: string, email: string, isPaid: boolean ){
 
-let loginUser = (name: string, email: string, isPaid: boolean = false) => {}
+}
+
+// let loginUser = (name: string, email: string, isPaid: boolean = false) => {
+    
+// }
 
 let myValue = addTwo(5)
 getUpper("hitesh")
 
-signUpUser("hitesh", "hitesh@lco.dev", false)
-loginUser("h", "h@h.com")
+const uses=signUpUser("hitesh", "hitesh@lco.dev", false)
+console.log(uses)
+// loginUser("h", "h@h.com")
 
 // function getValue(myVal: number): boolean{
 //     if (myVal > 5) {
@@ -24,9 +29,9 @@ loginUser("h", "h@h.com")
 //     return "200 OK"
 // }
 
-const getHello = (s: string):string => {
-   return ""
-}
+// const getHello = (s: string):string => {
+//    return ""
+// }
 
 const heros = ["thor", "spiderman", "ironman"]
 // const heros = [1, 2, 3]
@@ -47,4 +52,3 @@ function handleError(errmsg: string): never{
 
 
 
-export {}

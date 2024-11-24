@@ -12,11 +12,11 @@ interface User {
     githubToken: string
 }
 
-interface Admin extends User {
+interface Admins extends User {
     role: "admin" | "ta" | "learner"
 }
 
-const hitesh: Admin = { dbId: 22, email: "h@h.com", userId: 2211,
+const hitesh: Admins = { dbId: 22, email: "h@h.com", userId: 2211,
 role: "admin",
 githubToken: "github",
 startTrail: () => {
@@ -27,4 +27,4 @@ getCoupon: (name: "hitesh10", off: 10) => {
 }
 }
 hitesh.email = "h@hc.com"
-// hitesh.dbId = 33
+//hitesh.dbId = 33
