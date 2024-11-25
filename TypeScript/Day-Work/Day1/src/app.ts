@@ -1,3 +1,9 @@
+// console.log("welcome to my TypeScript");
+
+let age: number = 10;
+if(age <50)
+    age+=10;
+
 type Person={
     name: string
     age:number
@@ -13,3 +19,4 @@ let Person2:Person={
     age:21,
     isStudent: false
 }
+
