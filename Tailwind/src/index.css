@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+   font-family:"Times New Roman",Georgia, 'Times New Roman', Times, serif;
+ }
+
+ @layer components{
+  .card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 100px;
+    background-color:theme("colors.twitter-blue");
+    border-radius: 8px;
+    border: 0.7px solid #eee;
+    
+  }
+ }
